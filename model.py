@@ -32,4 +32,4 @@ y_pred = lr.predict(X_test)
 print('Accuracy of logistic regression classifier on train set: {:.2f}'.format(lr.score(X_train, y_train)))
 print('Accuracy of logistic regression classifier on test set: {:.2f}'.format(lr.score(X_test, y_test)))
 
-joblib.dump(lr, 'lr_model.sav')
+joblib.dump(lr, r"C:/Users/17036/Documents/School/Fall_2022/CDS_303/Code/Streamlit/lr_model.sav")
