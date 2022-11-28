@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn import metrics
 
 #import dataset
-df = pd.read_csv(r"C:\Users\17036\Documents\School\Fall_2022\CDS_303\Code\Streamlit\Master_DF_Changed_2020")
+df = pd.read_csv(r"C:\Users\17036\Documents\School\Fall_2022\CDS_303\Code\Streamlit\Master_DF_Changed_2020.csv")
 
 # naming features used in the model
 feature_cols = ['Offense Pass DVOA', 'Offense Rush DVOA', 'Offense Variance', 'Offense Schedule', 'Defense Pass DVOA', 'Defense Rush DVOA', 'Defense Variance', 'Defense Schedule']
