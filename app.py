@@ -23,6 +23,6 @@ with col2:
     d_schedule = st.slider("Schedule", -1.000, 1.000, .001, key = 'd_schedule')
     
 
-if st.button('Predict Playoff Qualifications'):
+if st.button('Predict Playoff'):
     result = predict(np.array([[o_pass, o_run, o_variance, o_schedule, d_pass, d_run, d_variance, d_schedule,]]))
     st.text(result[0])
